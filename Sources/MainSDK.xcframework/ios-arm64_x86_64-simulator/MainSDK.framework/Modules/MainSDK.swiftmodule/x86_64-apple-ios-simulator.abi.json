@@ -1,0 +1,101 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MainSDK",
+    "printedName": "MainSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MainSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "InnerFramework",
+        "printedName": "InnerFramework",
+        "declKind": "Import",
+        "moduleName": "MainSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ParentHelper",
+        "printedName": "ParentHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printChildURL",
+            "printedName": "printChildURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7MainSDK12ParentHelperC13printChildURLyyFZ",
+            "mangledName": "$s7MainSDK12ParentHelperC13printChildURLyyFZ",
+            "moduleName": "MainSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ParentHelper",
+                "printedName": "MainSDK.ParentHelper",
+                "usr": "s:7MainSDK12ParentHelperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7MainSDK12ParentHelperCACycfc",
+            "mangledName": "$s7MainSDK12ParentHelperCACycfc",
+            "moduleName": "MainSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7MainSDK12ParentHelperC",
+        "mangledName": "$s7MainSDK12ParentHelperC",
+        "moduleName": "MainSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

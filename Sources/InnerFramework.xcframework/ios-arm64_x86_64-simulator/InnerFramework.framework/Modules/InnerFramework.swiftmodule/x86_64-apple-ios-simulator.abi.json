@@ -1,0 +1,103 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "InnerFramework",
+    "printedName": "InnerFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InnerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChildHelper",
+        "printedName": "ChildHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "childBaseURL",
+            "printedName": "childBaseURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14InnerFramework11ChildHelperC12childBaseURLSSSgyFZ",
+            "mangledName": "$s14InnerFramework11ChildHelperC12childBaseURLSSSgyFZ",
+            "moduleName": "InnerFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChildHelper",
+                "printedName": "InnerFramework.ChildHelper",
+                "usr": "s:14InnerFramework11ChildHelperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14InnerFramework11ChildHelperCACycfc",
+            "mangledName": "$s14InnerFramework11ChildHelperCACycfc",
+            "moduleName": "InnerFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14InnerFramework11ChildHelperC",
+        "mangledName": "$s14InnerFramework11ChildHelperC",
+        "moduleName": "InnerFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
